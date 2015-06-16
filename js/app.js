@@ -8,7 +8,7 @@ let App = React.createClass({
   render() {
     return (
       <div className="nav">
-        <Link to="app">Home</Link>
+        <Link to="app">Home</Link>&nbsp;|&nbsp;
         <Link to="login">Login</Link>
 
         {/* this is the importTant part */}
